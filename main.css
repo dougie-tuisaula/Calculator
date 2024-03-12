@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.calculator {
+  width: 200px;
+  margin: 50px auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  background-color: black;
+}
+
+.display {
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  text-align: right;
+  font-size: 20px;
+}
+
+button {
+  color: orange;
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  font-size: 18px;
+}
+
+.operator {
+  color: green;
+}
+
+#C {
+  color: black;
+}

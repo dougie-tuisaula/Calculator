@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Doug's Calculator</title>
+<script src="script.js" async></script>
+<link rel="stylesheet" href="/main.css" />
+</head>
+<body>
+<div class="calculator">
+  <div class="display" id="display">0</div>
+ <div class="buttons">
+   <button class="number" id="C"onclick="clearDisplay()">C</button>
+   <button class="operator" onclick="handleClick('+')">+</button>
+   <button class="operator" onclick="handleClick('-')">-</button>
+   <button class="operator" onclick="handleClick('*')">*</button>
+   <button class="operator" onclick="handleClick('/')">/</button>
+   <button class="operator" onclick="calculate()">=</button>
+   <button class="number" onclick="handleClick('7')">7</button>
+   <button class="number" onclick="handleClick('8')">8</button>
+   <button class="number" onclick="handleClick('9')">9</button>
+   <button class="number" onclick="handleClick('4')">4</button>
+   <button class="number" onclick="handleClick('5')">5</button>
+   <button class="number" onclick="handleClick('6')">6</button>
+   <button class="number" onclick="handleClick('1')">1</button>
+   <button class="number" onclick="handleClick('2')">2</button>
+   <button class="number" onclick="handleClick('3')">3</button>
+   <button class="number" onclick="handleClick('.')">.</button>
+        <button class="number" onclick="handleClick('0')">0</button>
+    </div>
+</body>
+</html>
